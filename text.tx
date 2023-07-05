@@ -1,0 +1,3 @@
+Pour faire cette exercice, avoir python et SQLAlchemy Installés. 
+Pour installer SQLAlchemy, taper "pip install sqlalchemy" dans l'invite de commande
+Voir "pip install --upgrade sqlalchemy" si ça ne fonctionne pas. 
