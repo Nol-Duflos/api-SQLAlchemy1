@@ -1,8 +1,7 @@
 from models import User, Comment
-from sqlalchemy.orm import Session
-from connect import engine
+from main import session
 
-session = Session(bind=engine)
+#session = Session(bind=engine) #On vas mettre cette ligne ailleur car elle est fondamentale
 
 #On vas créer des objets qui représentent la Data
 Jonas = User(
